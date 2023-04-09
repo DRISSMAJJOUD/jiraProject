@@ -5,7 +5,7 @@ Library         SeleniumLibrary
 ouvrir navigateur
     Open Browser      https://www.google.com/    chrome
     Sleep   2s
-    Input Text          //input[1]      super mario 
-    Input Text          //input[1]      super mario luiggi
+    Wait Until Element Is Visible          //input[1]    
+   
     Sleep   2s 
     Close Browser
