@@ -5,6 +5,6 @@ Library         SeleniumLibrary
 ouvrir navigateur
     Open Browser      https://www.google.com/    chrome
     Sleep   2s
-    Click Element       //input[@name="q"]
-    Input Text          //input[@name="q"]      super mario 
+    Click Element       //input[1]
+    Input Text          //input[1]      super mario 
     Close Browser
