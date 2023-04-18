@@ -3,7 +3,7 @@ Library         SeleniumLibrary
 **Variables***
 ***Keywords***
 ouvrir navigateur
-    Open Browser      https://www.google.com/    chrome
+    Open Browser      aliexpress.com/    chrome
     Sleep   2s
     Wait Until Element Is Visible          //input[1]    
    
