@@ -3,7 +3,7 @@ Library         SeleniumLibrary
 Resource        files/keywords.robot
 **Variables***
 ***Test Cases***
-tco
+testjenkinsintegration
     ouvrir navigateur
 
 ***Keywords***
